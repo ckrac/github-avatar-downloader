@@ -1,9 +1,12 @@
 var request = require('request');
 var getKey = require('./secrets.js');
 var fs = require('fs');
+var owner = process.argv[2]
+var repo = process.argv[3]
+// console.log(`owner: ${owner} repo: ${repo}`);
 
-console.log('Welcome to the GitHub Avatar Downloader!');
 
+// console.log('Welcome to the GitHub Avatar Downloader!');
 // console.log(getKey.GITHUB_TOKEN);
 
 
